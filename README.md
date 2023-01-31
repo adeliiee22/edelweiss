@@ -1,6 +1,7 @@
-# C-C++ Chemistry Calculator
-To begin, before running the code, the code makes extensive use of structs to assign data to different elements of the periodic table, as well as conditional statements in many of its constituent parts.
-When the code is executed, it returns a list of the program's nine available options. It then asks the user to enter a number in order to select one of the options. When a user selects an option, a new set of instructions appears, asking the user to enter known values/data that can be used to find an answer using the inputted data. n some cases, the user may need to select an even more specific option in the calculator before inputting values as there is such a wide variety of options within the program.
-Once the user has entered all of the required information, the program will output a calculated answer and exit. If the user changes the option in the calculator, they will have to run the program again and select the desired option.
+# Google Play Rating Prediction
+The Playstore contains over 2 million apps. The availability and selection of applications are extremely diverse, making it difficult for users to filter out the best applications that are suitable for download. Diverse user preferences may be one of the reasons they are having difficulty finding those matches. Using data exploration and the EDA obtained, you can find the ratings of all applications on the Playstore.
 
+# Data Overview
+Google Playstore Apps data has 10841 rows and 13 columns. The following is an example of data obtained using df.head ()
+With df.info(), you can see that the dataframe's data types are 12 object types and 1 float.
 
